@@ -1,0 +1,12 @@
+.cartimg{
+    width: 60px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.button{
+    background-color: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.quantityCounter{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.quantityCounter input{
+    width: 20px;
+    text-align: center;
+}

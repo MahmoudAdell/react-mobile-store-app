@@ -1,0 +1,46 @@
+.orderSummary{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderSummary img{
+    width: 50%;
+    height: 50%;
+}
+.orderSummary h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.priceColor{
+    color:#808080;
+    
+
+}
+
+.orderSummary button{
+    color:#2a9ef4;
+    padding: 7px;
+    margin-bottom: 3px;
+    background-color: white;
+    border:1px solid #2a9ef4;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+
+}
+.orderSummary button a{
+    text-decoration: none;
+    color:#2a9ef4 ;
+    
+}
+
+.orderSummary button:hover{
+    color:#03254c;
+    background-color: #2a9ef4;
+    border:1px solid #2a9ef4;
+}
+
+.orderSummary button:hover a{
+    color:#03254c ;
+}

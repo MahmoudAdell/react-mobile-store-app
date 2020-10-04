@@ -1,0 +1,76 @@
+.card{
+    display: flex;
+    background-color: white;
+    flex-flow: column;
+    width: 20%;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    
+
+}
+.img{
+    width: 50%;
+    margin: auto;
+    transition: 0.5s;
+    cursor: pointer;
+ 
+}
+.imgDes{
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+.imgDesSpan{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.card:hover .img{
+    width: 70%;
+    margin: auto;
+}
+
+/* addtocurtButton*/
+.buttonParent{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+   }
+   
+.addtocurtButton{
+    box-sizing: border-box;
+    transform:translateY(43px);
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid #385898;
+    border-top-left-radius: 7px;
+    color:white;
+    background-color: #385898;
+    outline: none;
+    opacity: 0;
+    transition: 0.5s;
+   
+       
+   }
+.addtocurtButton:hover{
+    color:#385898;
+    background-color:white
+}
+.card:hover .addtocurtButton{
+    opacity: 1;
+    transform:translateY(-1px);
+}
+.card:hover .imgDes{
+    background-color:ghostwhite;   
+}
+
+/*.card:hover .addtocurtButton{
+    animation: buttonanimation 0.5s ease-in-out 0s alternate;
+}
+@keyframes buttonanimation {
+    0% {margin-left: 150px;opacity: 0;}
+    100% {margin-left: 0px;opacity: 1;}
+  }
+*/

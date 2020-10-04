@@ -1,0 +1,10 @@
+.content{
+    /*background-color: lightgray;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+
+
+}

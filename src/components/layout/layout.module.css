@@ -1,0 +1,30 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #385898;
+    align-items: center;
+    position: sticky;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.logo{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.logo a{
+    box-sizing: border-box;
+    padding:20px ;
+    padding-left: 100px;
+    text-decoration: none;
+    color:white;
+    font-size: 150%;
+    
+}
+.logoItem{
+    box-sizing: border-box;
+    margin-left: 20px;
+}

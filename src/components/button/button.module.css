@@ -1,0 +1,16 @@
+.button{
+    box-sizing: border-box;
+    margin-right: 100px;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+}
+.buttonIcon{
+    margin-right:10px;
+}
+.button:hover{
+    color: #385898;
+    background-color: white;
+}

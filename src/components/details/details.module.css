@@ -1,0 +1,49 @@
+.details{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.detailsFirstDiv{
+    color: #385898;
+    display: flex;
+    justify-content: center;
+
+}
+.detailsSectDiv{
+    display: flex;
+    justify-content:space-around;
+}
+.rightDiv{
+    text-align: left;
+}
+.rightDiv p{
+    width: 500px;
+}
+.detailsSectDiv button {
+    color:#2a9ef4;
+    padding: 7px;
+    margin-bottom: 3px;
+    margin-right: 7px;
+    background-color: white;
+    border:1px solid #2a9ef4;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.detailsSectDiv button a{
+    text-decoration: none;
+    color:#2a9ef4 ;
+    
+}
+
+.detailsSectDiv button:hover{
+    color:#03254c;
+    background-color: #2a9ef4;
+    border:1px solid #2a9ef4;
+}
+
+.detailsSectDiv button:hover a{
+    color:#03254c ;
+}
